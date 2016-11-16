@@ -38,32 +38,32 @@
     <div class="list-block">
       <ul>
         <li>
-          <a href="#" class="search-link item-content list-panel-all close-panel item-link">
+          
             <div class="item-inner">
-              <div class="item-title">Automatic &nbsp;&nbsp; <i class="fa fa-play"></i> </div>
+              <div class="item-title">Automatic &nbsp;&nbsp; <button style="cursor: pointer; "><i class="fa fa-play"></i></button> </div>
             </div>
-          </a>
+          
         </li>
         <li>
-          <a href="#" class="favorites-link item-content list-panel-all close-panel item-link">
+          
             <div class="item-inner">
-              <div class="item-title">Music Play &nbsp;&nbsp; <i class="fa fa-file-audio-o"></i> </div>
+              <div class="item-title">Music Play &nbsp;&nbsp; <button onclick="playaudio('audio/audio.mp3');" style="cursor: pointer; "><i class="fa fa-file-audio-o"></i></button>  </div>
             </div>
-          </a>
+          
         </li>
 		<li>
-          <a href="#" class="favorites-link item-content list-panel-all close-panel item-link">
+          
             <div class="item-inner">
-              <div class="item-title">About Us &nbsp;&nbsp; <i class="fa fa-info-circle"></i> </div>
+              <div class="item-title">About Us &nbsp;&nbsp; <button onclick="myApp.alert('By \n Dr. Geetha Ramani', 'Information');" style="cursor: pointer; "><i class="fa fa-info-circle"></i></button> </div>
             </div>
-          </a>
+          
         </li>
 		<li>
-          <a href="#" class="favorites-link item-content list-panel-all close-panel item-link">
+          
             <div class="item-inner">
-              <div class="item-title">Shut Down &nbsp;&nbsp; <i class="fa fa-power-off"></i> </div>
+              <div class="item-title">Exit App &nbsp;&nbsp; <button onclick="navigator.app.exitApp();" style="cursor: pointer; "><i class="fa fa-power-off"></i></button> </div>
             </div>
-          </a>
+          
         </li>
       </ul>
     </div>
@@ -84,7 +84,7 @@
             <a href="#" class="link icon-only open-panel"><i class="fa fa-bars"></i></a>
           </div>
           <!-- We need cool sliding animation on title element, so we have additional "sliding" class -->
-          <div class="center sliding">Aathichudi &nbsp;&nbsp; <i class="fa fa-play"></i> &nbsp;&nbsp; 
+          <div class="center sliding">Aathichudi &nbsp;&nbsp; <button style="cursor: pointer; "><i class="fa fa-play"></i></button> &nbsp;&nbsp; 
 		  <button onclick="playaudio('audio/audio.mp3');" style="cursor: pointer; "><i class="fa fa-file-audio-o"></i></button>  &nbsp;&nbsp; <button onclick="myApp.alert('By \n Dr. Geetha Ramani', 'Information');" style="cursor: pointer; "><i class="fa fa-info-circle"></i></button> &nbsp;&nbsp; <button onclick="navigator.app.exitApp();" style="cursor: pointer; "><i class="fa fa-power-off"></i></button> </div>
         </div>
       </div>
